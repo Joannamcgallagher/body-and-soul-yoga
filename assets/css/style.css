@@ -62,15 +62,19 @@ h1
     color: #ffff;
 }
 
-#top-index-image
+#index-image-container
 {
-  clear: both;
+    clear: both;
+    height: 700px;
+    width: 100vw;
+    /* position:relative; */
 }
 
-#index-image
+#top-index-image
 {
-    width: 100%;
-    height: 100%;
-    max-width: 650px;
-    max-height: 850px;
+    background: url('../images/sunset-yoga.webp') no-repeat center center;
+    height: 700px;
+    width: 100vw;
+    background-size: cover;    
 }
+
