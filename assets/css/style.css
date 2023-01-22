@@ -85,6 +85,7 @@ h2
     font-size: 30px;
     margin-top: 10px;
     text-align: center;
+    text-decoration: underline;
 }
 
 #about-us
@@ -94,6 +95,11 @@ h2
     margin-left: 5px;
     height: 200px;
     text-align: center;
+}
+
+#benefits-h2, #about-h2
+{
+    line-height: 75px;
 }
 
 #benefits
@@ -108,12 +114,12 @@ h2
 #benefits-list
 {
     display: inline-block;
-    text-align: left;
+    text-align: center;
 }
 
 #benefits-list li
 {
-    /* margin-bottom: 5px; */
+    margin-bottom: 2px;
     list-style-position: inside;
 }
 
@@ -142,7 +148,7 @@ footer
 
 i:hover
 {
-    font-size: 250%;
+    font-size: 150%;
 }
 
 #types-img-container
@@ -154,7 +160,7 @@ i:hover
 
 #yoga-types-image
 {
-    background: url('../images/Man-meditating.jpeg') no-repeat center center;
+    background: url('../images/sunset-yoga2.jpeg') no-repeat center center;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -162,7 +168,8 @@ i:hover
 
 h3
 {
-    margin: 10px 0 10px 0;
+    margin: 10px 0 8px 0;
+    text-decoration: underline;
 }
 
 #yoga-types
@@ -176,9 +183,15 @@ h3
     width: 16.3%;
     height: 220px;
     float: left;
-    padding: 20px 1 1 10px;
+    padding: 10px;
     text-align: center;
-    border: 1.5px solid darkslategrey;
+    border: 2px solid darkslategrey;
     box-sizing: border-box;
+    border-radius: 30px;
     margin: 2px;
+}
+
+#yoga-types h2
+{
+    margin: 20px 0 20px 0;
 }
