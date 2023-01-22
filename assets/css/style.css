@@ -159,3 +159,26 @@ i:hover
     height: 100%;
     width: 100%;
 }
+
+h3
+{
+    margin: 10px 0 10px 0;
+}
+
+#yoga-types
+{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#yoga-types div
+{
+    width: 16.3%;
+    height: 220px;
+    float: left;
+    padding: 20px 1 1 10px;
+    text-align: center;
+    border: 1.5px solid darkslategrey;
+    box-sizing: border-box;
+    margin: 2px;
+}
