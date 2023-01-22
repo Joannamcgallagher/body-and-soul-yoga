@@ -18,7 +18,7 @@ h1
 {
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: salmon;
+    color: darkslategrey;
     font-size: 50px;
 }
 
@@ -65,16 +65,35 @@ h1
 #index-image-container
 {
     clear: both;
-    height: 700px;
+    height: 600px;
     width: 100vw;
-    /* position:relative; */
 }
 
 #top-index-image
 {
     background: url('../images/sunset-yoga.webp') no-repeat center center;
-    height: 700px;
+    height: 600px;
     width: 100vw;
     background-size: cover;    
 }
 
+h2
+{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: darkslategrey;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#about-us-outer
+{
+    width: 50%;
+    float: left;
+}
+
+#benefits-outer
+{
+    width: 50%;
+    float: right;
+}
