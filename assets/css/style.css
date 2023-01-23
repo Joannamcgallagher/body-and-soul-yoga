@@ -85,7 +85,6 @@ h2
     font-size: 30px;
     margin-top: 10px;
     text-align: center;
-    text-decoration: underline;
 }
 
 #about-us
@@ -196,6 +195,8 @@ h3
     margin: 20px 0 20px 0;
 }
 
+/* Tutorials Page*/
+
 #tutorials-img-container
 {
     clear: both;
@@ -210,3 +211,6 @@ h3
     height: 100%;
     width: 100%;
 }
+
+/*Vidoe styling
+width="560" height="315"*/
