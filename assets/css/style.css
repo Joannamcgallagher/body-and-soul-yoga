@@ -212,5 +212,32 @@ h3
     width: 100%;
 }
 
-/*Vidoe styling
-width="560" height="315"*/
+/*Video styling*/
+
+.tutorials-outer
+{
+    margin: 20px;
+    text-align: center;
+}
+
+.tutorials-outer h2
+{
+    margin: 10px 0 10px 0;
+}
+
+.tutorial-videos
+{
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 25px 0 25px;
+    border: 2px solid darkslategrey;
+    border-radius: 30px;
+}
+
+.tutorial-videos iframe
+{
+    height: 200px;
+    width: 80%;
+}
