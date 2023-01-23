@@ -1,243 +1,244 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
-*
-{
-    margin: 0;
-    padding: 0;
-    border: none;
+*{
+margin: 0;
+padding: 0;
+border: none;
 }
 
 body
 {
-    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
-    font-weight: 200; 
-    color: darkslategrey;
+font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+font-weight: 200; 
+color: darkslategrey;
 }
 
 h1
 {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: darkslategrey;
-    font-size: 50px;
+text-transform: uppercase;
+letter-spacing: 4px;
+color: darkslategrey;
+font-size: 50px;
 }
 
 #logo
 {
-    float: left;
+float: left;
 }
 
 #nav-links
 {
-    font-size: 120%;
-    letter-spacing: 4px;
+font-size: 120%;
+letter-spacing: 4px;
 }
 
 #nav-links li
 {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
+float: right;
+list-style-type: none;
+margin-right: 20px;
 }
 
 #nav-links a
 {
-    color: inherit;
-    text-decoration: none;
+color: inherit;
+text-decoration: none;
 }
 
 #nav-links, #logo
 {
-    line-height: 80px;
+line-height: 80px;
 }
 
 #nav-links a:hover
 {
-    border-bottom: 1px solid darkslategrey;
+border-bottom: 1px solid darkslategrey;
 }
 
 #nav-links a:active
 {
-    background-color: darkslategrey;
-    color: #ffff;
+background-color: darkslategrey;
+color: #ffff;
 }
 
 #index-image-container
 {
-    clear: both;
-    height: 600px;
-    width: 100vw;
+clear: both;
+height: 600px;
+width: 100vw;
 }
 
 #top-index-image
 {
-    background: url('../images/sunset-yoga.webp') no-repeat center center;
-    height: 600px;
-    width: 100vw;
-    background-size: cover;    
+background: url('../images/sunset-yoga.webp') no-repeat center center;
+height: 600px;
+width: 100vw;
+background-size: cover;    
 }
 
 h2
 {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: darkslategrey;
-    font-size: 30px;
-    margin-top: 10px;
-    text-align: center;
+text-transform: uppercase;
+letter-spacing: 4px;
+color: darkslategrey;
+font-size: 30px;
+margin-top: 10px;
+text-align: center;
 }
 
 #about-us
 {
-    width: 45%;
-    display: inline-block;
-    margin-left: 5px;
-    height: 200px;
-    text-align: center;
+width: 45%;
+display: inline-block;
+margin-left: 5px;
+height: 200px;
+text-align: center;
 }
 
 #benefits-h2, #about-h2
 {
-    line-height: 75px;
+line-height: 75px;
 }
 
 #benefits
 {
-    width: 45%;
-    padding-left: 20px;
-    display: inline-block;
-    height: 200px;
-    text-align: center;
+width: 45%;
+padding-left: 20px;
+display: inline-block;
+height: 200px;
+text-align: center;
 }
 
 #benefits-list
 {
-    display: inline-block;
-    text-align: center;
+display: inline-block;
+text-align: center;
 }
 
 #benefits-list li
 {
-    margin-bottom: 2px;
-    list-style-position: inside;
+margin-bottom: 2px;
+list-style-position: inside;
 }
 
 footer
 {
-    height: 100px;
+height: 100px;
 }
 
 .socials
 {
-    text-align: center;
+text-align: center;
 }
 
 .socials i
 {
-    margin: 1%;
-    padding: 2%;
-    color: darkslategrey;
-    font-size: 125%;
+margin: 1%;
+padding: 2%;
+color: darkslategrey;
+font-size: 125%;
 }
 
 .socials > li
 {
-    display: inline;
+display: inline;
 }
 
 i:hover
 {
-    font-size: 150%;
+font-size: 150%;
 }
+
+/*Types of yoga page*/
 
 #types-img-container
 {
-    clear: both;
-    height: 600px;
-    width: 100%vw;
+clear: both;
+height: 600px;
+width: 100%vw;
 }
 
 #yoga-types-image
 {
-    background: url('../images/sunset-yoga2.jpeg') no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+background: url('../images/sunset-yoga2.jpeg') no-repeat center center;
+background-size: cover;
+height: 100%;
+width: 100%;
 }
 
 h3
 {
-    margin: 10px 0 8px 0;
-    text-decoration: underline;
+margin: 10px 0 8px 0;
+text-decoration: underline;
 }
 
 #yoga-types
 {
-    width: 100%;
-    margin-top: 10px;
+width: 100%;
+margin-top: 10px;
 }
 
 #yoga-types div
 {
-    width: 16.3%;
-    height: 220px;
-    float: left;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid darkslategrey;
-    box-sizing: border-box;
-    border-radius: 30px;
-    margin: 2px;
+width: 16.3%;
+height: 220px;
+float: left;
+padding: 10px;
+text-align: center;
+border: 2px solid darkslategrey;
+box-sizing: border-box;
+border-radius: 30px;
+margin: 2px;
 }
 
 #yoga-types h2
 {
-    margin: 20px 0 20px 0;
+margin: 20px 0 20px 0;
 }
 
 /* Tutorials Page*/
 
 #tutorials-img-container
 {
-    clear: both;
-    height: 600px;
-    width: 100%vw;
+clear: both;
+height: 600px;
+width: 100%vw;
 }
 
 #tutorials-image
 {
-    background: url('../images/sunset-yoga3.jpeg') no-repeat center center;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+background: url('../images/sunset-yoga3.jpeg') no-repeat center center;
+background-size: cover;
+height: 100%;
+width: 100%;
 }
 
 /*Video styling*/
 
 .tutorials-outer
 {
-    margin: 20px;
-    text-align: center;
+margin: 20px;
+text-align: center;
 }
 
 .tutorials-outer h2
 {
-    margin: 10px 0 10px 0;
+margin: 10px 0 10px 0;
 }
 
 .tutorial-videos
 {
-    width: 30%;
-    height: 300px;
-    display: inline-block;
-    text-align: center;
-    margin: 0 25px 0 25px;
-    border: 2px solid darkslategrey;
-    border-radius: 30px;
+width: 30%;
+height: 300px;
+display: inline-block;
+text-align: center;
+margin: 0 25px 0 25px;
+border: 2px solid darkslategrey;
+border-radius: 30px;
 }
 
 .tutorial-videos iframe
 {
-    height: 200px;
-    width: 80%;
+height: 200px;
+width: 80%;
 }
