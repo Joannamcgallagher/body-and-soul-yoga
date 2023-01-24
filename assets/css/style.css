@@ -243,3 +243,19 @@ border-radius: 30px;
 height: 200px;
 width: 80%;
 }
+
+/*sign-up.html*/
+
+#signup-image-container
+{
+clear: both;
+height: 600px;
+width: 100%vw;
+}
+#signup-image
+{
+background: url('../images/sunset-yoga4.jpeg') no-repeat center center;
+background-size: cover;
+height: 100%;
+width: 100%;
+}
