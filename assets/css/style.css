@@ -88,18 +88,21 @@ margin-top: 10px;
 text-align: center;
 }
 
-#index-quote
+.quote-text
 {
-    font-size: 120%;
+    font-size: 130%;
     letter-spacing: 4px;
-    height: 200px;
-    width: 250px;
-    color: white;
-    font-weight: 400;
+    height: 220px;
+    width: 270px;
+    color: darkslategrey;
+    font-weight: 700;
     right: 180px;
     bottom: 10px;
     position: absolute;
     font-style: italic;
+    background-color: rgb(237, 220, 92, .8);
+    padding: 10px;
+    border-radius: 20px;
 }
 
 #about-us
@@ -172,6 +175,7 @@ font-size: 150%;
 clear: both;
 height: 600px;
 width: 100%vw;
+position: relative;
 }
 
 #yoga-types-image
@@ -219,6 +223,7 @@ margin: 20px 0 20px 0;
 clear: both;
 height: 600px;
 width: 100%vw;
+position: relative;
 }
 
 #tutorials-image
