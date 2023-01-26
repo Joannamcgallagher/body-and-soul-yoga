@@ -326,3 +326,36 @@ width: 100%;
     color: white;
   }
  
+  /*Media queries*/
+  /*Large to medium screens from 1300px wide and down*/
+  @media screen and (max-width: 1300px)
+  {
+   #nav-links
+   {
+    clear: both;
+    float: left;
+   } 
+  }
+
+
+  /*Medium screen sizes 950px wide and down*/
+  @media screen and (max-width: 950px)
+  {
+    #index-intro
+    {
+      display: block;
+    }
+    #benefits
+    {
+      clear: left;
+    }
+  }
+
+  /*Medium screen sizes 700px wide and down*/
+  @media screen and (max-width: 700px)
+  {
+    h1
+    {
+      font-size: 35px;
+    }
+  }
