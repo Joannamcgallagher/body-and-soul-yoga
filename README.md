@@ -46,5 +46,52 @@ This is a website created for users of  all levels of fitness and abilities, to 
 
 - ### Features left to implement
     * A list of classes with details such as times and location and allow the user to be able to book a space online and send a confirmation email back to the client.
+    * I think a gallery page here would fit in quite nicely and display the various types of yoga mentioned earlier.
+
+- ### Technologies used
+    * HTML
+    * CSS
+    * Github
+    * Gitpod
+    * Balsamiq
+
+- ### Testing here
+    * Confirm different browsers
+    * Repsonsive
+    * Readable and easy to learn
+    * Form works (screenshot)
+
+- ### Bugs
+
+- ### Unfixed bugs
+
+### Validator testing
+- HTML
+- CSS
+- Lighthouse
+
+### Deployment
+- Repo here
+- Main Branch
+- Live link here
+
+### Content
+* Images : Images sourced from www.pexels.com
+* Videos : Videos sourced from www.youtube.com (I created a playlist to contain these and it can be found here.)
+* Icons : Icons were part of the Font Awesome script.
+* Fonts : Google fonts were used here to find the correct font that would benefit the page and be easily readable.
+
+### Credits
+* Walkthrough project - Love Running which can be found here.
+    * I was able to use this for reference multiple times on this site; 
+        * Navigation Links
+        * Footer
+        * The running times section was able to provide some clarity around the styling of the divs in the types of yoga page.
+        * Shadow Button :
+        * Sign up form :
+        * I frame to display Youtube links: 
+
+
+
 
     
