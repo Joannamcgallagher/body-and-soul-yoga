@@ -43,3 +43,8 @@ This is a website created for users of  all levels of fitness and abilities, to 
     * The form is style using the same colours and fonts to give the site a natural flow and not be too visually demanding. 
     * The sign up button has a hover effect so when the user hovers over this, the background and foreground colors switch to give the use a sense of feedback.
     ![Screenshot of the signup page showing a form and sign up button](docs/signup.png)
+
+- ### Features left to implement
+    * A list of classes with details such as times and location and allow the user to be able to book a space online and send a confirmation email back to the client.
+
+    
