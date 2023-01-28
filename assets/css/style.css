@@ -341,7 +341,12 @@ width: 100%;
     #nav-links
     {
       float: right;
-      font-size: 150%;
+      font-size: 130%;
+    }
+
+    #index-intro
+    {
+      height: 250px;
     }
 
     #about-us, #benefits
@@ -356,6 +361,10 @@ width: 100%;
     }
 
     /*types.html*/
+    #yoga-types
+    {
+      height: 275px;
+    }
     #yoga-types div
     {
       height: 275px;
