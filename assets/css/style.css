@@ -335,69 +335,56 @@ width: 100%;
  
   /*Media queries*/
   /*Breakpoints referenced from https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
-
-  /* Extra large devices (large laptops and desktops, 1200px and up)  */
-  /* @media screen and (min-width: 1200px)
+  /*Large screen size - max width 1200px*/
+  @media screen and (max-width: 1200px)
   {
-
-   #index-intro
-   {
-    margin-left: 70px;
-    
-   }
-
-   footer
-   {
-    clear: both;
-   }
-
-/*types.html*/
-   /* #yoga-types
-   {
-    margin-left: 50px;
-   }
-
-/*tutorials.html*/
-  /* .tutorials-outer
-  {
-    margin-left: 130px;
-  }
-  
-  .tutorial-videos
-   {
-    width: 95%;
-   }
-
-  }  */
-
-
-  /*Medium screen sizes 992px laptops and desktops*/
-  /*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
-  /* @media screen and (min-width: 950px)
-  {
-    #index-intro
-    {
-      display: block;
-    }
-    
-    #benefits
-    {
-      clear: left;
-    }
-    
+    /*index.html*/
     #nav-links
     {
-      clear: left;
-      float: left;
+      clear: both;
     }
-  } */
 
-  /*Medium screen sizes 768px - landscape lablets*/
-  /*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
-  @media only screen and (min-width: 768px)
+    #about-us, #benefits
+    {
+      height: 400px;
+      width: 45%;
+    }
+
+    .quote-text
+    {
+      height: fit-content;
+    }
+
+    /*types.html*/
+    #yoga-types div
+    {
+      clear: both;
+      height: fit-content;
+      width: 90%;
+      margin: 0 0 10px 20px;
+    }
+
+    /*tutorials.html*/
+    .quote-text
+    {
+      height: fit-content;
+    }
+
+    .tutorial-videos
+    {
+      display: block;
+      width: fit-content;
+      margin: 20px 20px 10px 20px;
+      width: 90%;
+    }    
+    
+
+  }
+  
+  /*Medium screen sizes 950px - landscape lablets*/
+  @media screen and (max-width: 950px)
   {
    /*index.html*/
-   /*Restyle margins*/
    #about-us, #benefits
    {
     width: 95%;
@@ -405,7 +392,7 @@ width: 100%;
 
    h1
    {
-    font-size: 90%;
+    font-size: 200%;
    }
 
    #nav-links
@@ -413,17 +400,73 @@ width: 100%;
     clear: left;
     float: left;
    }
+
+   /*target the quote box*/
+   .quote-text
+   {
+     right: 20px;
+     height: 150px;
+     padding-bottom: 20px;
+   }
+
+   /*target the divs on index.html*/
+   #about-us, #benefits
+   {
+    height: fit-content;
+    padding-bottom: 10px;
+   }
+
+   /*types.html*/
+   #yoga-types div
+    {
+      clear: both;
+      height: fit-content;
+      width: 90%;
+      margin: 0 0 10px 20px;
+    }
+
+    /*tutorials*/
+    .quote-text
+    {
+      height: fit-content;
+    }
+
+    .tutorial-videos
+    {
+      display: block;
+      width: fit-content;
+      margin: 20px 20px 10px 20px;
+      width: 90%;
+    }    
+
+    /*signup.html*/
+    #form-outer
+    {
+      width: 80%;
+      margin: 20px 10% 10px 10%;
+      padding-bottom: 10px;
+    }
+
+    .form-input
+    {
+      width: 85%;
+      margin: 5px 20px 5px 20px;
+    }
   }
 
-  /*Small - medium screen sizes - large phones & portrait tablets*/
-  /*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
-  @media only screen and (min-width: 600px)
+  /*Small - medium - large phones & portrait tablets*/
+  @media screen and (max-width: 750px)
   {
     /*index.html*/
     /*target the logo and nav links*/
     h1, #nav-links
     {
       margin-left: 5px;
+    }
+
+    h1
+    {
+      font-size: 120%;
     }
 
     /*target the quote box*/
@@ -490,9 +533,8 @@ width: 100%;
     }
   }
 
-  /*Small screen sizes with a max width of 700px*/
-  /*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
-  @media only screen and (max-width: 600px)
+  /*Small screen sizes with a max width of 600px*/
+  @media screen and (max-width: 600px)
   {
     /*target the menu and main logo*/
     h1
