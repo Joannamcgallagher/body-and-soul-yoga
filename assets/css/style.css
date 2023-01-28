@@ -347,13 +347,18 @@ width: 100%;
     #about-us, #benefits
     {
       width: 45%;
-      height: fit-content;/**/
-      min-height: 275px
+      height: 250px;
     }
 
     footer
     {
       clear: both;
+    }
+
+    /*types.html*/
+    #yoga-types div
+    {
+      height: 275px;
     }
 
     /*tutorials.html*/
@@ -363,7 +368,7 @@ width: 100%;
     }
     .tutorial-videos
       {
-      width: 30%;
+      width: 20%;
       height: 300px;
       display: inline-block;
       text-align: center;
