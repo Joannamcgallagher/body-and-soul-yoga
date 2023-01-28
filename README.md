@@ -2,6 +2,9 @@
 
 This is a website created for users of  all levels of fitness and abilities, to research different types of yoga offered, tutorials on each and a form to sign up for more information. Users will be able to try out the different types of yoga and determine which they would prefer. The target audience here is very broad as yoga is such a popular workout and can be done by anyone regardless of age or fitness ability.
 
+### User story
+* As a user, I want to find out more information about yoga. I am a novice on this subject and am interesed in researching it more before I commit to a yoga class. I would like to see the different types of yoga and also tutorials that I can follow at home so I can decide then which class to take if I decide to proceed.
+
 ## Features
 
 - ### Navigation Bar
@@ -56,19 +59,31 @@ This is a website created for users of  all levels of fitness and abilities, to 
     * Balsamiq
 
 - ### Testing here
-    * Confirm different browsers
-    * Repsonsive
-    * Readable and easy to learn
-    * Form works (screenshot)
+    * I have checked the link on various browers adn it appears to be working. I have also checked it on different devices including a tablet and my own phone (Samsung S22) and the media queries appear to be working to make the site responsive.
+    * The site is quite readable and easy to learn for a user visiting the site for the first time. The contrast between the background and foreground is high and the images flow well with each other throughout the site.
+    * The form links to the "formdump" at Code Institute so I can ensure that the form works even though it does not have any further functionality.
+    ![Screenshot of the CodeInstitute formdump which confirms the form works](docs/signup-formdump.png)
 
 - ### Bugs
+    * When the code was run through the HTML validator, a number of warnings showed up regarding the sections on html.index. I had to change these to divs instead and that was accepted then by the validator.
+    * I had issues with the media queries when run. When I checked the amiresponsive website, it showed that the phone size navigation menu appeared on two lines. However, I worked on this for quite a while and amended the media queries. I tested on my own phone and it appeared to work well.
 
 - ### Unfixed bugs
+    * The bug mentioned above regarding the amiresponsive phone size remains unfixed. I have researched this and done multiple tests but cannot resolve.
 
 ### Validator testing
-- HTML
+- HTML.
+
+    I ran the site through the HTML validator https://validator.w3.org/#validate_by_uri and after a couple of warnings that I resolved, the code passed with no warnings or errors.
+    ![Screenshot of HTML validator results](docs/html-validator.png)
 - CSS
+
+    The code was run through the CSS validator where it passed with no warnings or errors. https://jigsaw.w3.org/css-validator/validator
+    ![Screenshot of CSS validator results](docs/css-validator.png)
 - Lighthouse
+
+    I used the Lighthouse tool in Chrome development tools to check the accessibility of the site and it received 100.
+    ![Screenshot of Lighthouse results](docs/lighthouse-results.png)
 
 ### Deployment
 - Repo here
@@ -77,7 +92,7 @@ This is a website created for users of  all levels of fitness and abilities, to 
 
 ### Content
 * Images : Images sourced from www.pexels.com
-* Videos : Videos sourced from www.youtube.com (I created a playlist to contain these and it can be found here.)
+* Videos : Videos sourced from www.youtube.com (I created a playlist to contain these and it can be found [here](https://www.youtube.com/playlist?list=PLW8iztGI7CsfJsOy7r7hZtatF3Q9GwvZh)).
 * Icons : Icons were part of the Font Awesome script.
 * Fonts : Google fonts were used here to find the correct font that would benefit the page and be easily readable.
 
@@ -89,7 +104,6 @@ This is a website created for users of  all levels of fitness and abilities, to 
         * The running times section was able to provide some clarity around the styling of the divs in the types of yoga page.
         * Shadow Button :
         * Sign up form :
-        * I frame to display Youtube links: 
 
 
 
