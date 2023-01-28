@@ -158,7 +158,9 @@ height: 100px;
 {
 text-align: center;
 }
+
 /* Style any i class contained in .socials class */
+
 .socials i
 {
 margin: 1%;
@@ -171,7 +173,6 @@ font-size: 125%;
 {
 display: inline;
 }
-
 
 /*Types of yoga page*/
 
@@ -588,6 +589,11 @@ width: 100%;
       width: 85%;
       margin: 5px 20px 5px 20px;
     }
+
+    footer
+    {
+      clear: both;
+    }
   }
 
   /*Small screen sizes with a max width of 600px*/
@@ -694,4 +700,9 @@ width: 100%;
     letter-spacing: 1px;
     margin-right: 4px;
    } 
+
+   footer
+   {
+    clear: both;
+   }
   }
