@@ -180,7 +180,7 @@ display: inline;
 {
 clear: both;
 height: 600px;
-width: 100%vw;
+width: 100%;
 position: relative;
 }
 
@@ -228,7 +228,7 @@ margin: 20px 0 20px 0;
 {
 clear: both;
 height: 600px;
-width: 100%vw;
+width: 100%;
 position: relative;
 }
 
@@ -276,7 +276,7 @@ width: 80%;
 {
 clear: both;
 height: 600px;
-width: 100%vw;
+width: 100%;
 position: relative;
 }
 #signup-image
@@ -311,6 +311,7 @@ width: 100%;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-sizing: border-box;
+    font-family: inherit;
   }
   #submit-button 
   {
