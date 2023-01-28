@@ -374,3 +374,75 @@ width: 100%;
       font-size: 35px;
     }
   }
+
+  /*Small screen sizes with a max width of 700px*/
+  /*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+  @media only screen and (max-width: 600px)
+  {
+    /*target the menu and main logo*/
+    h1
+    {
+      font-size: 110%;
+      margin-left: 10px;
+      text-align: center;
+    }
+
+    #nav-links
+    {
+      font-size: 15px;
+      letter-spacing: 1px;
+      margin-left: 10px;
+    }
+
+    #nav-links li
+    {
+      margin-right: 15px;
+    }
+
+    /*index.html*/
+
+    /*target the quote box on the image*/
+    .quote-text
+    {
+      right: 10px;
+      font-size: 100%;
+      letter-spacing: 2px;
+      height: 120px;
+      width: 250px;
+    }
+
+    /*target the two divs on idex.html*/
+    #about-us, #benefits
+    {
+      display: block;
+      height: fit-content;
+      width: 90%;
+      padding-bottom: 10px;
+    }
+    
+    #benefits
+    {
+      float: left;
+      margin-left: 10px;
+    }
+
+    footer
+    {
+      clear: left;
+    }
+
+    #socials i
+    {
+      margin-top: 20px;
+    }
+    
+    /*yoga-types.html*/
+    /*target the tyoes divs*/
+    #yoga-types div
+    {
+      clear: both;
+      height: fit-content;
+      width: 90%;
+      margin: 0 0 10px 20px;
+    }
+  }
