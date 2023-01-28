@@ -135,12 +135,14 @@ text-align: left;
 #about-us
 {
   margin-left: 10px;
+  padding: 0 10px 0 10px;
 }
 
 #benefits
 {
 float: right;
 margin-right: 10px;
+padding: 0 10px;
 }
 
 #benefits-list
