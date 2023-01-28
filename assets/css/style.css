@@ -337,17 +337,12 @@ width: 100%;
   /*Breakpoints referenced from https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
 
   /* Extra large devices (large laptops and desktops, 1200px and up)  */
-  @media screen and (min-width: 1200px)
+  /* @media screen and (min-width: 1200px)
   {
-   #nav-links
-   {
-    clear: both;
-    float: left;
-   } 
-   
+
    #index-intro
    {
-    margin-left: 40px;
+    margin-left: 70px;
     
    }
 
@@ -356,32 +351,46 @@ width: 100%;
     clear: both;
    }
 
-  .tutorials-outer
+/*types.html*/
+   /* #yoga-types
+   {
+    margin-left: 50px;
+   }
+
+/*tutorials.html*/
+  /* .tutorials-outer
   {
-    margin-left: 60px;
+    margin-left: 130px;
   }
   
   .tutorial-videos
    {
     width: 95%;
    }
-  
-  }
+
+  }  */
 
 
   /*Medium screen sizes 992px laptops and desktops*/
   /*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
-  @media screen and (min-width: 950px)
+  /* @media screen and (min-width: 950px)
   {
     #index-intro
     {
       display: block;
     }
+    
     #benefits
     {
       clear: left;
     }
-  }
+    
+    #nav-links
+    {
+      clear: left;
+      float: left;
+    }
+  } */
 
   /*Medium screen sizes 768px - landscape lablets*/
   /*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
@@ -392,6 +401,17 @@ width: 100%;
    #about-us, #benefits
    {
     width: 95%;
+   }
+
+   h1
+   {
+    font-size: 90%;
+   }
+
+   #nav-links
+   {
+    clear: left;
+    float: left;
    }
   }
 
