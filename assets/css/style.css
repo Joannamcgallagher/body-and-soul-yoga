@@ -627,11 +627,14 @@ width: 100%;
   }
 
   /*Smaller mobile screens with a max width of 400px*/
-  @media screen and (max-width: 400px) 
+  @media screen and (max-width: 375px) 
   {
    #nav-links
    {
     clear: both;
     float: left;
+    font-size: 75%;
+    letter-spacing: 1px;
+    margin-right: 4px;
    } 
   }
