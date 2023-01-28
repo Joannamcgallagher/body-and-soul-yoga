@@ -109,14 +109,6 @@ padding: 10px;
 border-radius: 20px;
 }
 
-/* #about-us
-{
-width: 45%;
-display: inline-block;
-margin-left: 5px;
-height: 200px;
-text-align: left;
-} */
 
 #about-us, #benefits
 {
@@ -342,19 +334,44 @@ width: 100%;
   }
  
   /*Media queries*/
-  /*Large to medium screens from 1300px wide and down*/
-  @media screen and (max-width: 1300px)
+  /*Breakpoints referenced from https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+
+  /* Extra large devices (large laptops and desktops, 1200px and up)  */
+  @media screen and (min-width: 1200px)
   {
    #nav-links
    {
     clear: both;
     float: left;
    } 
+   
+   #index-intro
+   {
+    margin-left: 40px;
+    
+   }
+
+   footer
+   {
+    clear: both;
+   }
+
+  .tutorials-outer
+  {
+    margin-left: 60px;
+  }
+  
+  .tutorial-videos
+   {
+    width: 95%;
+   }
+  
   }
 
 
-  /*Medium screen sizes 950px wide and down*/
-  @media screen and (max-width: 950px)
+  /*Medium screen sizes 992px laptops and desktops*/
+  /*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+  @media screen and (min-width: 950px)
   {
     #index-intro
     {
@@ -366,12 +383,90 @@ width: 100%;
     }
   }
 
-  /*Medium screen sizes 700px wide and down*/
-  @media screen and (max-width: 700px)
+  /*Medium screen sizes 768px - landscape lablets*/
+  /*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+  @media only screen and (min-width: 768px)
   {
-    h1
+   /*index.html*/
+   /*Restyle margins*/
+   #about-us, #benefits
+   {
+    width: 95%;
+   }
+  }
+
+  /*Small - medium screen sizes - large phones & portrait tablets*/
+  /*https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
+  @media only screen and (min-width: 600px)
+  {
+    /*index.html*/
+    /*target the logo and nav links*/
+    h1, #nav-links
     {
-      font-size: 35px;
+      margin-left: 5px;
+    }
+
+    /*target the quote box*/
+    .quote-text
+    {
+      right: 20px;
+      height: 150px;
+      padding-bottom: 20px;
+    }
+
+    /*target the two divs for about-us and benefits*/
+    #about-us, #benefits
+    {
+      display: block;
+      height: fit-content;
+      width: 90%;
+      padding-bottom: 10px;
+    }
+
+    #benefits
+    {
+      float: left;
+      margin-left: 10px;
+    }
+
+    /*types.html*/
+    /*target the types divs*/
+    #yoga-types div
+    {
+      clear: both;
+      height: fit-content;
+      width: 90%;
+      margin: 0 0 10px 20px;
+    }
+
+    /*tutorials.html*/
+    /*larger quote so need to adjust for better style and visibility*/
+
+    .quote-text
+    {
+      height: 200px;
+    }
+
+    .tutorial-videos
+    {
+      display: block;
+      width: fit-content;
+      margin: 20px 20px 10px 20px;
+      width: 90%;
+    }    
+
+    /*signup.html*/
+    #form-outer
+    {
+      width: 80%;
+      margin: 20px 10% 10px 10%;
+      padding-bottom: 10px;
+    }
+
+    .form-input
+    {
+      width: 85%;
+      margin: 5px 20px 5px 20px;
     }
   }
 
@@ -411,7 +506,7 @@ width: 100%;
       width: 250px;
     }
 
-    /*target the two divs on idex.html*/
+    /*target the two divs on index.html*/
     #about-us, #benefits
     {
       display: block;
@@ -444,5 +539,27 @@ width: 100%;
       height: fit-content;
       width: 90%;
       margin: 0 0 10px 20px;
+    }
+
+    /*tutorials.html*/
+    .tutorial-videos
+    {
+      display: block;
+      width: fit-content;
+      margin-bottom: 10px;
+    }
+
+    /*sigup.html*/
+    #form-outer
+    {
+      width: 80%;
+      margin: 10px 10% 10px 10%;
+      padding-bottom: 10px;
+    }
+
+    .form-input
+    {
+      width: 85%;
+      margin: 5px 20px 5px 20px;
     }
   }
