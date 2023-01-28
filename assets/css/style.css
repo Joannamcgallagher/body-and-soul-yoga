@@ -45,16 +45,19 @@ margin-right: 20px;
 color: inherit;
 text-decoration: none;
 }
+
 /* Align the Logo and the nav links so they are horizontally aligned */
 #nav-links, #logo
 {
 line-height: 80px;
 }
+
 /* Add a border-bottom when the link is hovered over */
 #nav-links a:hover
 {
 border-bottom: 1px solid darkslategrey;
 }
+
 /* Invert the background when the link is clicked so the user has some visible feedback */
 #nav-links a:active
 {
@@ -87,6 +90,7 @@ font-size: 30px;
 margin-top: 10px;
 text-align: center;
 }
+
 /* Contains the styling for the quote boxes on all four pages */
 .quote-text
 {
@@ -105,29 +109,38 @@ padding: 10px;
 border-radius: 20px;
 }
 
-#about-us
+/* #about-us
 {
 width: 45%;
 display: inline-block;
 margin-left: 5px;
 height: 200px;
 text-align: left;
+} */
+
+#about-us, #benefits
+{
+  border: 2px solid darkslategrey;
+  border-radius: 30px;
+  height: 250px;
+  display: inline-block;
+  width: 48%;
+  text-align: left;
+  /*https://stackoverflow.com/questions/7083516/alignment-issue-with-inline-blocks-of-different-heights - vertical-align to resolve height issues*/
+  vertical-align: top;
+  margin-top: 20px;
+  padding-top: 10px;
 }
 
-#benefits-h2, #about-h2
+#about-us
 {
-line-height: 80px;
-text-align: left;
-margin: auto;
+  margin-left: 10px;
 }
 
 #benefits
 {
-width: 45%;
-padding-left: 60px;
-display: inline-block;
-height: 200px;
-text-align: left;
+float: right;
+margin-right: 10px;
 }
 
 #benefits-list
