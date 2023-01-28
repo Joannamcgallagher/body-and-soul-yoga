@@ -338,7 +338,44 @@ width: 100%;
   /*Extra large screen sizes - min width 1200px*/
   @media screen and (min-width: 1200px)
   {
-    
+    #nav-links
+    {
+      float: right;
+      font-size: 150%;
+    }
+
+    #about-us, #benefits
+    {
+      width: 45%;
+      height: 275px
+    }
+
+    footer
+    {
+      clear: both;
+    }
+
+    /*tutorials.html*/
+    .tutorials-outer h2
+    {
+      margin: 10px 0 10px 0;
+    }
+    .tutorial-videos
+      {
+      width: 30%;
+      height: 300px;
+      display: inline-block;
+      text-align: center;
+      margin: 0 25px 0 25px;
+      border: 2px solid darkslategrey;
+      border-radius: 30px;
+      }
+
+    .tutorial-videos iframe
+    {
+      height: 200px;
+      width: 80%;
+    }
   }
   /*Large screen size - max width 1200px*/
   @media screen and (max-width: 1200px)
