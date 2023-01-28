@@ -381,7 +381,7 @@ width: 100%;
 
   }
   
-  /*Medium screen sizes 950px - landscape lablets*/
+  /*Medium screen sizes 950px - landscape lablets and smaller laptops*/
   @media screen and (max-width: 950px)
   {
    /*index.html*/
@@ -624,4 +624,14 @@ width: 100%;
       width: 85%;
       margin: 5px 20px 5px 20px;
     }
+  }
+
+  /*Smaller mobile screens with a max width of 400px*/
+  @media screen and (max-width: 400px) 
+  {
+   #nav-links
+   {
+    clear: both;
+    float: left;
+   } 
   }
