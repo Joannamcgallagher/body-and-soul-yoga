@@ -5,6 +5,36 @@ This is a website created for users of  all levels of fitness and abilities, to 
 ### User story
 * As a user, I want to find out more information about yoga. I am a novice on this subject and am interesed in researching it more before I commit to a yoga class. I would like to see the different types of yoga and also tutorials that I can follow at home so I can decide then which class to take if I decide to proceed.
 
+## Design
+
+I based the design of this website off the five design planes in UXD.
+
+* Strategy 
+
+    I want to design a website for users who would like more information on yoga, specifically the different types of yoga, which will include tutorials for users to try out at home before committing to trying a class in a studio. The target audience here is broad as yoga can be practiced by anyone regardless of fitness ability.
+
+* Scope
+
+    I plan on having a landing page explaining what the website is for and I plan on including a page for both types of yoga and a page for tutorials of those types which will ensure the flow of the website is good.
+
+* Structure
+
+    There will be an image on all pages which will be similar but not the same. The about us and benefits sections on index.html will be grouped into divs which is contained in a section.
+
+    The navigation menu will be an unordered list with an anchor element in each to direct the users to the various pages.
+    
+    The types of yoga will be contained in divs with a display on inline block so they are horizontally displayed across the page.
+
+    The tutorials page will be seperated by sections containing divs. The divs will be given a class so they can be styled in the stylesheet as one.
+
+    The signup page will have a simple yet functional form to allow the user to enter their details to sign up for more information. This will be a section that contains a form element and a submit button.
+
+* Skeleton
+
+    The navigation links will appear the same on each page which will make the site easily readable and easy to learn for a first time user. I designed this in Balsamiq which was a great tool to use so I could then implement the features on each page.
+
+* Surface
+
 ## Features
 
 - ### Navigation Bar
