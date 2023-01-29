@@ -39,6 +39,22 @@ I based the design of this website off the five design planes in UXD.
 
 * Surface
 
+    The finished product will have colors that compliment each other and have high contrast to the background for visually impaired users.
+
+    The colours I have picked to use are:
+        
+    darkslategrey for the font color, logo and navigation links
+
+    ![Color of darkslategrey](docs/color%20-%20darkslategrey.png)
+
+    Gin fizz for the background on all pages as it is a nice pastel shade and fits well with the messgae of the site.
+
+    ![Color gin fizz](docs/color%20-%20gin%20fizz.png)
+
+    Portica for the quote boxes and the background of the signup form. When using it for the quote boxes, I used an opacity of 0.8.
+
+    ![Color portica](docs/color%20-%20portica.png)
+
 ## Features
 
 - ### Navigation Bar
