@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 /* Over-ride browsers default margin, padding and border */
-*{
+*
+{
 margin: 0;
 padding: 0;
 border: none;
@@ -20,6 +21,22 @@ text-transform: uppercase;
 letter-spacing: 4px;
 color: darkslategrey;
 font-size: 50px;
+}
+
+h2
+{
+text-transform: uppercase;
+letter-spacing: 4px;
+color: darkslategrey;
+font-size: 30px;
+margin-top: 10px;
+text-align: center;
+}
+
+h3
+{
+margin: 10px 0 8px 0;
+text-decoration: underline;
 }
 
 #logo
@@ -81,16 +98,6 @@ width: 100vw;
 background-size: cover;    
 }
 
-h2
-{
-text-transform: uppercase;
-letter-spacing: 4px;
-color: darkslategrey;
-font-size: 30px;
-margin-top: 10px;
-text-align: center;
-}
-
 /* Contains the styling for the quote boxes on all four pages */
 .quote-text
 {
@@ -108,7 +115,6 @@ background-color: rgb(237, 220, 92, .8);
 padding: 10px;
 border-radius: 20px;
 }
-
 
 #about-us, #benefits
 {
@@ -160,7 +166,6 @@ text-align: center;
 }
 
 /* Style any i class contained in .socials class */
-
 .socials i
 {
 margin: 1%;
@@ -175,7 +180,6 @@ display: inline;
 }
 
 /*Types of yoga page*/
-
 #types-img-container
 {
 clear: both;
@@ -190,12 +194,6 @@ background: url('../images/sunset-goddess-pose.jpeg') no-repeat center center;
 background-size: cover;
 height: 100%;
 width: 100%;
-}
-
-h3
-{
-margin: 10px 0 8px 0;
-text-decoration: underline;
 }
 
 #yoga-types
@@ -223,7 +221,6 @@ margin: 20px 0 20px 0;
 }
 
 /* Tutorials Page*/
-
 #tutorials-img-container
 {
 clear: both;
@@ -241,7 +238,6 @@ width: 100%;
 }
 
 /*Video styling*/
-
 .tutorials-outer
 {
 margin: 20px;
@@ -271,7 +267,6 @@ width: 80%;
 }
 
 /*sign-up.html*/
-
 #signup-image-container
 {
 clear: both;
@@ -299,6 +294,7 @@ width: 100%;
     justify-content: center;
     color: darkslategrey;
 }
+
 /* styles for form labels, inputs and button */
 /*Referenced from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form*/
 .form-input

@@ -2,8 +2,8 @@
 
 This is a website created for users of  all levels of fitness and abilities, to research different types of yoga offered, tutorials on each and a form to sign up for more information. Users will be able to try out the different types of yoga and determine which they would prefer. The target audience here is very broad as yoga is such a popular workout and can be done by anyone regardless of age or fitness ability.
 
-### User story
-* As a user, I want to find out more information about yoga. I am a novice on this subject and am interesed in researching it more before I commit to a yoga class. I would like to see the different types of yoga and also tutorials that I can follow at home so I can decide then which class to take if I decide to proceed.
+## User story
+* As a user, I want to find out more information about yoga. I am a novice on this subject and am interesed in researching it more before I commit to a yoga class. I would like to see the different types of yoga and also tutorials that I can follow at home so I can decide then which class to take if I decide to proceed. I would also like the option to be able to sign up so I can receive more information regarding yoga and what the site offers.
 
 ## Design
 
@@ -32,6 +32,7 @@ I based the design of this website off the five design planes in UXD.
 * Skeleton
 
     The navigation links will appear the same on each page which will make the site easily readable and easy to learn for a first time user. I designed this in Balsamiq which was a great tool to use so I could then implement the features on each page.
+
     ![Screenshot of index.html on Balsamiq](docs/balsamiq%20-%20index.png)
     ![Screenshot of types.html on Balsamiq](docs/balsamiq%20-%20types.png)
     ![Screenshot of tutorials.html on Balsamiq](docs/balsamiq%20-%20tutorials.png)
@@ -51,9 +52,11 @@ I based the design of this website off the five design planes in UXD.
 
     ![Color gin fizz](docs/color%20-%20gin%20fizz.png)
 
-    Portica for the quote boxes and the background of the signup form. When using it for the quote boxes, I used an opacity of 0.8.
+    Portica for the quote boxes and the background of the signup form. When using it for the quote boxes, I used an opacity of 0.8. When this background color is used, I use a white font with it so it is easily readable.
 
     ![Color portica](docs/color%20-%20portica.png)
+
+    The font I chose was Comfortaa from the Google fonts library and is referenced in the stylesheet. I think this font fits best with the feel of the site and what it is representing.
 
 ## Features
 
@@ -125,14 +128,19 @@ I based the design of this website off the five design planes in UXD.
 - HTML.
 
     I ran the site through the HTML validator https://validator.w3.org/#validate_by_uri and after a couple of warnings that I resolved, the code passed with no warnings or errors.
+
     ![Screenshot of HTML validator results](docs/html-validator.png)
+
 - CSS
 
     The code was run through the CSS validator where it passed with no warnings or errors. https://jigsaw.w3.org/css-validator/validator
+
     ![Screenshot of CSS validator results](docs/css-validator.png)
+
 - Lighthouse
 
     I used the Lighthouse tool in Chrome development tools to check the accessibility of the site and it received 100.
+
     ![Screenshot of Lighthouse results](docs/lighthouse-results.png)
 
 ### Deployment
