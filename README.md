@@ -152,8 +152,8 @@ I based the design of this website off the five design planes in UXD.
         * Navigation Links
         * Footer
         * The running times section was able to provide some clarity around the styling of the divs in the types of yoga page.
-        * Shadow Button :
-        * Sign up form :
+        * Shadow Button : https://www.htmlgoodies.com/css/css-button-styles/
+        * Sign up form : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form
 
 
 

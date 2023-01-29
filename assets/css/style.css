@@ -300,6 +300,7 @@ width: 100%;
     color: darkslategrey;
 }
 /* styles for form labels, inputs and button */
+/*Referenced from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form*/
 .form-input
 {
     width: 100%;
@@ -313,6 +314,8 @@ width: 100%;
     box-sizing: border-box;
     font-family: inherit;
   }
+
+  /*Shadow styling referenced from https://www.htmlgoodies.com/css/css-button-styles/*/
   #submit-button 
   {
     width: 50%;
