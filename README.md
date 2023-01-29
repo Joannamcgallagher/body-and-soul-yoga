@@ -1,6 +1,6 @@
 # Body and Soul Yoga
 
-This is a website created for users of  all levels of fitness and abilities, to research different types of yoga offered, tutorials on each and a form to sign up for more information. Users will be able to try out the different types of yoga and determine which they would prefer. The target audience here is very broad as yoga is such a popular workout and can be done by anyone regardless of age or fitness ability.
+This is a website created for users of all levels of fitness and abilities, to research different types of yoga offered, tutorials on each and a form to sign up for more information. Users will be able to try out the different types of yoga and determine which they would prefer. The target audience here is very broad as yoga is such a popular workout and can be done by anyone regardless of age or fitness ability.
 
 ## User story
 * As a user, I want to find out more information about yoga. I am a novice on this subject and am interesed in researching it more before I commit to a yoga class. I would like to see the different types of yoga and also tutorials that I can follow at home so I can decide then which class to take if I decide to proceed. I would also like the option to be able to sign up so I can receive more information regarding yoga and what the site offers.
@@ -153,6 +153,12 @@ I based the design of this website off the five design planes in UXD.
 * Videos : Videos sourced from www.youtube.com (I created a playlist to contain these and it can be found [here](https://www.youtube.com/playlist?list=PLW8iztGI7CsfJsOy7r7hZtatF3Q9GwvZh)).
 * Icons : Icons were part of the Font Awesome script.
 * Fonts : Google fonts were used here to find the correct font that would benefit the page and be easily readable.
+* The types of yoga came from https://www.mindbodygreen.com/articles/the-11-major-types-of-yoga-explained-simply apart from chair yoga which came from https://www.verywellfit.com/chair-yoga-poses-3567189
+* index.html quote : https://www.yanrefitness.com/yoga-quotes/
+* types.html quote : https://quotefancy.com/quote/1233069/Mariel-Hemingway-Yoga-teaches-you-how-to-listen-to-your-body
+* tutorials.html quote : https://www.dailyquotesbank.com/2020/05/yoga-meditation-quotes.html (number 52)
+* signup.html quote : https://www.dailyquotesbank.com/2020/05/yoga-meditation-quotes.html (number 4)
+* Benefits of yoga : https://osteopathic.org/what-is-osteopathic-medicine/benefits-of-yoga/
 
 ### Credits
 * Walkthrough project - Love Running which can be found here.
@@ -160,8 +166,9 @@ I based the design of this website off the five design planes in UXD.
         * Navigation Links
         * Footer
         * The running times section was able to provide some clarity around the styling of the divs in the types of yoga page.
-        * Shadow Button : https://www.htmlgoodies.com/css/css-button-styles/
-        * Sign up form : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form
+* Shadow Button : https://www.htmlgoodies.com/css/css-button-styles/
+* Sign up form : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_stacked_form
+* iframes : https://www.w3schools.com/html/html_youtube.asp
 
 
 
