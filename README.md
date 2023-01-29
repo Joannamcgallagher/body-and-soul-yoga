@@ -32,6 +32,10 @@ I based the design of this website off the five design planes in UXD.
 * Skeleton
 
     The navigation links will appear the same on each page which will make the site easily readable and easy to learn for a first time user. I designed this in Balsamiq which was a great tool to use so I could then implement the features on each page.
+    ![Screenshot of index.html on Balsamiq](docs/balsamiq%20-%20index.png)
+    ![Screenshot of types.html on Balsamiq](docs/balsamiq%20-%20types.png)
+    ![Screenshot of tutorials.html on Balsamiq](docs/balsamiq%20-%20tutorials.png)
+    ![Screenshot of signup.html on Balsamiq](docs/balsamiq%20-%20signup.png)
 
 * Surface
 
