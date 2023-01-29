@@ -144,9 +144,13 @@ I based the design of this website off the five design planes in UXD.
     ![Screenshot of Lighthouse results](docs/lighthouse-results.png)
 
 ### Deployment
-- Repo here
-- Main Branch
-- Live link here
+- This site is depolyed to GitHub pages using the steps below:
+    * In the GitHub repository, click on the Settings tab.
+    * Click on the Pages option on the left hand side of the screen.
+    * In the source selection menu, click on the main branch.
+    * Click save.
+- The repository link can be found [here](https://github.com/Joannamcgallagher/body-and-soul-yoga)
+- The live link can be found here - https://joannamcgallagher.github.io/body-and-soul-yoga/
 
 ### Content
 * Images : Images sourced from www.pexels.com
